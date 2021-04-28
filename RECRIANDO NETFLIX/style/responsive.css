@@ -1,0 +1,20 @@
+/*Sempre que minha tela tiver até no maximo de largura 700px (menor que 700px)*/
+@media screen and (max-width:700px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 190px;
+        height: 60px;
+    }
+}
+
+/*Enqnato minha tela for maior que 1000px */
+@media screen and (min-width: 1000px){
+    .descricao{
+        width: 50%;
+    }
+}
